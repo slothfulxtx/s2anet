@@ -79,8 +79,8 @@ def prepare_multi_scale_data(src_path, dst_path, gap=200, subsize=1024, scales=[
 
 if __name__ == '__main__':
     # single scale
-    prepare_multi_scale_data('/project/jmhan/data/dota',
-                             '/workfs/jmhan/dota_1024_s2anet',scales=[1.0])
+    prepare_multi_scale_data('/home/tianxing/datasets/dota',
+                             '/home/tianxing/s2anet/data/dota_1024_s2anet',scales=[1.0])
     # multi scale
     # prepare_multi_scale_data('/project/jmhan/data/dota',
     #                          '/workfs/jmhan/dota_1024_ms_s2anet',scales=[0.5, 1.0, 1.5], gap=500)

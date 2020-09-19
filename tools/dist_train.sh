@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export PYTHONPATH=`pwd`:$PYTHONPATH
+
 PYTHON=${PYTHON:-"python"}
 
 CONFIG=$1
